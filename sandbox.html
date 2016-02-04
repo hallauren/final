@@ -1,0 +1,42 @@
+<!-- Learn the basics of Javascript: -->
+<!-- Window vs console, variables, and event handlers. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sandbox</title>
+    <script src="https://code.jquery.com/jquery-2.2.0.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <h1>Hello!</h1>
+
+    <script>
+      // window.alert("Hello!");
+
+      // $('body').append("<h1>Go U NU!</h1>");
+      // $('body').css("background-color", "yellow");
+
+      function changeColor() {
+        $('body').css("background-color", "yellow");
+      }
+
+      // console.log("Wazzzzup!");
+      // console.info("This is week 4.");
+      // console.error("This carbon dioxide filter won't fit!");
+
+      // person1 = { name: "Cookie Monster", hobbies: "Eating cookies" }
+      // person2 = { name: "Bill Gates", hobbies: "Travel and Philanthropy" }
+      // people = [person1, person2]
+      // console.info(people)
+
+      // username = window.prompt("Which do you choose: the red pill or the blue pill?");
+      // alert(username);
+
+      // $("h1").on("click", changeColor);
+      $("h1").on("mouseenter", changeColor);
+    </script>
+
+  </body>
+</html>
