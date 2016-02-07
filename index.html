@@ -2,34 +2,110 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>To Do</title>
-    <script src="https://code.jquery.com/jquery-2.2.0.js" charset="utf-8"></script>
-    <script src="todo.js" charset="utf-8"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Journal</title>
+    <!-- <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style type="text/css"></style>
+
+      <script src="http://code.jquery.com/jquery-2.1.4.js (Links to an external site.)"></script>
+
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js (Links to an external site.)"></script>
   </head>
 
   <body>
+    <!-- Top Header Area -->
+    <h1>Lauren's Travel Journal</h1>
 
-    <div class="container">
-
-      <div class="page-header">
-        <h1>
-          To Do
-          <small><span class="total">0 items</span></small>
-          <a class="btn btn-primary pull-right" href="#">Add Item</a>
-        </h1>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <ol class="todo-list">
-
-          </ol>
-        </div>
-      </div>
-
+    <!-- Navigation Area -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a href="https://www.google.com/"></a><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Travel Journal</a>
     </div>
 
-  </body>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="NA.html">North America<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="SA.html">South America<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="eur.html">Europe<span class="sr-only">(current)</span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.google.com/">Go to Google!</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
+          <!-- <ul class="dropdown-menu">
+            <li><a href="quito.html">Quito</a></li>
+            <li><a href="parkcity.html">Park City</a></li>
+            <li><a href="arizona.html">Scottsdale</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul> -->
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
+    <nav>
+      <ul>
+        <li><a href="NA.html">North America</a></li>
+        <li><a href="SA.html">South America</a></li>
+        <li><a href="eur.html">Europe</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div>
+      <p>
+        Welcome to Lauren Hall's travel journal site.
+        Explore the pages here to see some places I have visited.
+
+        
+
+      </p>
+    </div>
+
+<button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+  This is my button
+</button>
+
+<script>
+  $('#myButton').on('click', function () {
+    var $btn = $(this).button('loading')
+    // business logic...
+    $btn.button('reset')
+  })
+</script>
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">Quito Highlights: Volcano, Hot Springs</div> -->
+    <!-- <button class="btn btn-default" type="submit">Go!</button> -->
+
+    <!-- <div class="col-md-4">Park City Highlights: Skiing, Mountains</div>
+    <div class="col-md-4">Scottsdale Highlights: Hiking, Desert Landscape</div>
+  </div>
+  </div> -->
+
+
+    <div class="header">
+      <img width="90%" src="zonapano.jpg">
+
+    </div>
+    <p>
+
+    </p>
+
+
+  </body>
 </html>
