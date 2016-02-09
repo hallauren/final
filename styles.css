@@ -1,4 +1,52 @@
 body {
+  margin-top: 30px;
+  font-family: 'Oswald', normal;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Oswald', normal;
+  font-size: 36px;
+  color: white;
+  padding-top: 20px;
+}
+h1 {
+  font-family: 'Oswald', normal;
+  font-size: 20px;
+}
+
+h1.title {
+  padding: 0 10px 18px 0;
+  font-family: 'Lobster', normal;
+}
+h2 {
+  font-family: 'Oswald', normal;
+  font-size: 20px;
+}
+.rating {
+  font-family: 'Oswald', normal;
+  font-size: 0.4em;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  padding: 4px;
+  vertical-align: middle;
+}
+.summary h2, .actors h4 {
+  font-family: 'Oswald', normal;
+  margin-top: 0;
+/*}
+.review {
+  margin-bottom: 30px;
+}*/
+
+form .btn-default {
+  font-family: 'Oswald', normal;
+  color: #9d9d9d;
+  background-color: black;
+}
+
+/*
+
+body {
   font-family: "Arial";
 }
 
@@ -189,7 +237,7 @@ block
 font-family
 'Helvetica Neue', Helvetica, Arial, sans-serif
 
-@media (max-width: @screen-xs-max) { ... } 
+@media (max-width: @screen-xs-max) { ... }
 
 }*/
 
@@ -200,4 +248,4 @@ Need to set the color/style/font for all elements of the website so that it look
 /*peanut butter m&ms - remember the order*/
   /*margin: top right bottom left (clockwise)*/
   /*box model of css*/
-  /*(border:none)*/
+  /*(border:none)*/*/
