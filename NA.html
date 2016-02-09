@@ -2,31 +2,141 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Journal</title>
+    <!-- <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8"> -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="http://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css"> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>  -->
+    <link rel="stylesheet" href="styles.css">
+
     <style type="text/css"></style>
-    <title>North America</title>
+
+      <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <script src="java.js"></script>
+
+
   </head>
+
   <body>
-    <!-- Top Header Area -->
-    <h1><a North America</a></h1>
 
 
+  <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Travel Journal</a>
+        </div>
 
-    <!-- Navigation Area -->
-    <nav>
-        <a href="hw2.html">Home Page</a></li>
-    </nav>
-    <!-- Main content -->
-    <div>
-      <p>
-        North America
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-plane"></i>
+                Travel Pages
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="NA.html">North America</a></li>
+                <li><a href="SA.html">South America</a></li>
+                <li><a href="eur.html">Europe</a></li>
+              </ul>
+            </li>
 
-    <div class="header">
-      <img width="90%" src="arizona.jpg">
+          <!-- </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                My Account
+              </a>
+            </li>
+          </ul> -->
+        </div>
+      </nav>
 
-      </p>
-      <p>
-        <!-- I enjoy spending time in Scottsdale because of the weather and the beautiful natural landscape. I took this picture from the top of a hike on Tom's Thumb in the McDowell Sonoran Preserve. -->
+    <style>
+      .movie-title { color: purple; }
+    </style>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title">
+            <span class="movie-title">North America</span>
+            <!-- <span class="rating">PG-13</span>
+            <small class="text-muted">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </small> -->
+          </h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <p><img src="parkcity.jpg" class="img-responsive"></p>
+          <p><strong>Taken:</strong> 2016</p>
+          <p><strong>Location:</strong> Park City, UT</p>
+        </div>
+        <div class="col-md-5 summary">
+          <h2>About</h2>
+          <p>
+            <!-- This website is a compilation of photos from my past travels and was created to showcase my new coding abilities. This site has several pages of travel pictures, broken out by region. Enjoy!
+            - Lauren -->
+
+          </p>
+          <!-- <table class="table table-striped table-bordered">
+            <tr>
+              <td><strong>Studio</strong></td>
+              <td>Marvel</td>
+            </tr>
+            <tr>
+              <td><strong>Run Time</strong></td>
+              <td>2 hr 1 min</td>
+            </tr>
+            <tr>
+              <td><strong>Format</strong></td>
+              <td>Widescreen</td>
+            </tr>
+          </table> -->
+        </div>
+        <div class="col-md-5 actors">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Email the author</h4>
+              <!-- <p>James Gunn</p>
+              <h4>Starring:</h4>
+              <p>Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
   </body>
 </html>
