@@ -27,7 +27,7 @@ function deleteItem(event) {
   console.info(event);
   $(event.target).parent().fadeOut();
 
-var numItems = $("abc").length-1;
+var numItems = $("abc").length-#;
 $(".total").html(numItems + " item");
 
 }
