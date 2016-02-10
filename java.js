@@ -11,10 +11,9 @@ function addItem() {
   var text = window.prompt("New Packing Item");
 
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
-  $("ol").append("<li>" + text + " " + delete_link + "</li>");
+  $("ol").append("<abc><br>" + text + " " + delete_link + "</abc>");
 
-  var numItems = $("li").length;
-  // numItems = $("li").length;
+  var numItems = $("abc").length;
   $(".total").html(numItems + " items");
 
       if(numItems == 1) {
@@ -27,5 +26,8 @@ function addItem() {
 function deleteItem(event) {
   console.info(event);
   $(event.target).parent().remove();
+
+var numItems = $("abc").length-1;
+$(".total").html(numItems + " item");
 
 }
