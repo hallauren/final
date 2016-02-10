@@ -20,7 +20,7 @@ function addItem() {
         $(".total").html(numItems + " item");
       }
       else {
-          $(".total").html(numItems + " items");
+        $(".total").html(numItems + " items");
   }
 }
 function deleteItem(event) {
